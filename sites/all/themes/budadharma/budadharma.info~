@@ -1,5 +1,5 @@
 name = Budadharma theme
-description = Un subtema de Drupal usando Bootstrap y LESS desarrollado para el Instituto Budadharma.
+description = Un subtema de Bootstrap y LESS desarrollado para el Instituto Budadharma.
 core = 7.x
 base theme = bootstrap
 
