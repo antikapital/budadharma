@@ -1,0 +1,176 @@
+// Bootstrap library.
+@import 'bootstrap.less';
+
+// Base-theme overrides.
+@import 'overrides.less';
+
+// Theme specific.
+@import 'header.less';
+@import 'content.less';
+@import 'footer.less';
+
+/*Custom*/
+body {
+	//background-image: url("./back.png"); Para imagen en carpeta css del tema
+	background-image: url("/budadharma/sites/default/files/back.png");
+	line-height: 1.6em;
+	letter-spacing: 1px;
+}
+p {
+	text-align: justify;
+}
+h1 { 
+	font-size: 35px; 
+} 
+.row {
+padding: 1%;
+background-color: @crema;
+margin-left: 0px;
+margin-right: 0px;
+}
+.budadharma {
+	padding: 1em 0 0 0;
+	background-color: @crema;
+	border-radius: @border-radius-large @border-radius-large 0 0;
+}
+.navbar.container {
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.navbar {
+	border-radius: 0;
+}
+@media(max-width:768px){
+  ul.secondary{
+    float:none!important;
+  }
+}
+.navbar {
+	text-transform: uppercase;
+	border-bottom: 5px solid @brand-primary;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+
+.temas {
+min-height: 110px;
+background-color: @azul;
+padding: 5px;
+margin-top: 0;
+color: #fff;
+}
+.curso {
+	min-height: 110px;
+	background-color: @azul-lighter;
+	padding: 10px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	a {
+	color: @azul;
+	}
+}
+	.curso--orange {
+		min-height: 110px;
+		background-color: @brand-primary;
+		padding: 10px;
+		margin-top: 0;
+		margin-bottom: 20px;
+		a {
+			color: #FFF;
+		}
+	}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+margin-left: -1px;
+background-color: @brand-primary;
+border: 1px solid @brand-primary;
+border-radius: 0px;
+color: #FFF;
+}
+.carousel-caption {
+width: 550px;
+position: absolute;
+left: 3%;
+bottom: 10%;
+z-index: 10;
+padding: 30px;
+color: @azul-dark;
+text-align: justify;
+text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+}
+.carousel-caption > h3 {
+	background-color: rgba(171,244,255,0.6);
+	margin-bottom: 10px;
+	font-size: 28px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.carousel-caption > p {
+padding-left: 10px;
+padding-right: 10px;
+line-height: 1.8;
+background-color: rgba(171,244,255,0.6);
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: @azul-dark;
+background-color: @crema;
+border: 1px solid @brand-primary;
+border-bottom-color: transparent;
+cursor: default;
+}
+.nav-tabs {
+border-bottom: 1px solid @brand-primary;
+}
+.master {
+	margin-top: 5px;
+	background-color: @crema-dark;
+	padding: 12px;
+	border-left: 45px solid @brand-primary;
+}
+.block:first-child h2.block-title {
+	margin-top: 15px;
+	font-size: 160%;
+}
+.pagination {
+display: inline-block;
+float: left;
+padding-left: 0;
+margin: 20px 0;
+border-radius: 0px;
+}
+.field-items {
+margin-top: 12px;
+float: left;
+}
+.field .field-label {
+margin-top: 12px;
+font-weight: bold;
+font-size: 1.2em;
+}
+.caret {
+display: none;
+}
+.more-link {
+	padding-left: 50px;
+}
+.page-header {
+	padding-bottom: 11px;
+	margin: 0.1em 0 0 0;
+	border-bottom: 1px solid @azul-dark;
+		}
+.delgada {
+	line-height: 0.5em;
+}
+.social-bookmarks {
+	background-color: @crema;
+	margin: 0px;
+	pading: 0 0 0 1em;
+	text-align: left;
+}
+/*Custom*/
+ @media (max-width: 400px) {
+        .carousel-caption {
+          display: none;
+      		}
+        }
