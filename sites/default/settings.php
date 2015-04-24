@@ -219,7 +219,7 @@ $databases = array (
     array (
       'database' => 'budadharma',
       'username' => 'root',
-      'password' => 'emergencia.1',
+      'password' => 'root',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
